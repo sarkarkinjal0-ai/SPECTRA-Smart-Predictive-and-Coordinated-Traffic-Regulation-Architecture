@@ -1,0 +1,27 @@
+SPECTRA DASHBOARD - LIVE MODE
+
+1. Install dashboard dependencies once:
+   pip install -r requirements.txt
+
+2. Start SPECTRA controller in a separate terminal:
+   cd C:\SPECTRA\Simulation
+   python spectra_controller.py
+
+3. Start this dashboard:
+   cd <this SPECTRA_Dashboard folder>
+   streamlit run dashboard.py
+
+The dashboard automatically checks these live-data locations:
+- SPECTRA_DATA_FILE environment variable, if set
+- dashboard_live.json in this folder
+- dashboard_live.json in this folder's parent
+- dashboard_live.json in current working directory / parent
+- C:\SPECTRA\Simulation\dashboard_live.json (Windows fallback)
+
+IMPORTANT:
+The controller writes dashboard_live.json only after its training phase completes and live intelligent control begins. Until then, the dashboard will display "Waiting for live SPECTRA data".
+
+If your controller is stored elsewhere, either:
+A) edit the fallback path in live_data.py, or
+B) before running Streamlit, set:
+   set SPECTRA_DATA_FILE=C:\path\to\dashboard_live.json
