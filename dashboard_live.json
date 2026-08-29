@@ -1,0 +1,1987 @@
+{
+  "system_status": "LIVE",
+  "simulation_time": 240.0,
+  "current_phase_number": 2,
+  "current_phase": "E1_E3",
+  "time_in_phase": 2.0,
+  "cost_13": 0.0,
+  "cost_24": 0.35,
+  "stage7_decision": "E1_E3",
+  "safe_action": "E1_E3",
+  "final_decision": "E1_E3",
+  "decision_reason": "Consequence-aware decision",
+  "traffic": {
+    "E1": {
+      "vehicle_count": 2,
+      "halted_count": 0,
+      "mean_speed": 3.1921913850205494,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.15
+    },
+    "E2": {
+      "vehicle_count": 1,
+      "halted_count": 0,
+      "mean_speed": 13.130453565529546,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    "E3": {
+      "vehicle_count": 2,
+      "halted_count": 0,
+      "mean_speed": 3.8070460430677526,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.15
+    },
+    "E4": {
+      "vehicle_count": 1,
+      "halted_count": 0,
+      "mean_speed": 11.373861314243328,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    }
+  },
+  "ml": {
+    "model": "Random Forest Regressor",
+    "prediction_horizon": 30,
+    "mae": 0.06194444444444444,
+    "rmse": 0.202662828911032,
+    "r2": 0.8784018275271274
+  },
+  "emergency": {
+    "detected": false,
+    "count": 0,
+    "details": []
+  },
+  "safety": {
+    "minimum_green_time": 10,
+    "maximum_green_time": 30,
+    "maximum_red_time": 40,
+    "fairness_override": false,
+    "max_green_override": false,
+    "red_time_E1_E3": 0,
+    "red_time_E2_E4": 3
+  },
+  "traffic_history": [
+    {
+      "time": 181.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 4.0,
+      "predicted_halted": 0.05
+    },
+    {
+      "time": 181.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 181.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 4.0,
+      "predicted_halted": 0.04
+    },
+    {
+      "time": 181.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 182.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.07
+    },
+    {
+      "time": 182.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 182.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 1.0,
+      "predicted_halted": 0.01
+    },
+    {
+      "time": 182.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 183.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 183.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 183.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.01
+    },
+    {
+      "time": 183.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 184.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.15
+    },
+    {
+      "time": 184.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 184.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.15
+    },
+    {
+      "time": 184.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 185.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 185.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 185.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.23
+    },
+    {
+      "time": 185.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 186.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 186.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 186.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.52
+    },
+    {
+      "time": 186.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.49
+    },
+    {
+      "time": 187.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 187.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 187.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 187.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 188.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 188.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 1.93
+    },
+    {
+      "time": 188.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 188.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 1.96
+    },
+    {
+      "time": 189.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 189.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 1.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 189.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 189.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 1.16
+    },
+    {
+      "time": 190.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 190.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 2,
+      "waiting_time": 1.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 190.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 190.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 2,
+      "waiting_time": 0.5,
+      "predicted_halted": 1.06
+    },
+    {
+      "time": 191.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 191.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 1.5,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 191.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 191.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 1.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 192.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 192.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 192.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 192.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 1.5,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 193.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 193.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.5,
+      "predicted_halted": 0.91
+    },
+    {
+      "time": 193.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 193.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 0.42
+    },
+    {
+      "time": 194.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 194.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.0,
+      "predicted_halted": 0.37
+    },
+    {
+      "time": 194.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 194.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.5,
+      "predicted_halted": 0.37
+    },
+    {
+      "time": 195.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 195.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.5,
+      "predicted_halted": 0.1
+    },
+    {
+      "time": 195.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 195.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.0,
+      "predicted_halted": 0.01
+    },
+    {
+      "time": 196.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 196.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.08
+    },
+    {
+      "time": 196.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 196.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.05
+    },
+    {
+      "time": 197.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 197.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.02
+    },
+    {
+      "time": 197.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 197.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.03
+    },
+    {
+      "time": 198.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 198.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.03
+    },
+    {
+      "time": 198.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 198.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.02
+    },
+    {
+      "time": 199.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 199.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 199.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 199.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 200.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.67
+    },
+    {
+      "time": 200.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 200.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.99
+    },
+    {
+      "time": 200.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 201.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 201.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 201.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.99
+    },
+    {
+      "time": 201.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 202.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 1.0,
+      "predicted_halted": 2.0
+    },
+    {
+      "time": 202.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 202.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 1.0,
+      "predicted_halted": 2.0
+    },
+    {
+      "time": 202.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 203.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 203.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 203.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 203.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 204.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 2,
+      "waiting_time": 1.5,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 204.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 204.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 2,
+      "waiting_time": 1.5,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 204.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 205.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 205.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 205.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 205.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 206.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.5,
+      "predicted_halted": 0.98
+    },
+    {
+      "time": 206.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 206.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.5,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 206.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 207.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.0,
+      "predicted_halted": 0.99
+    },
+    {
+      "time": 207.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 207.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.0,
+      "predicted_halted": 1.02
+    },
+    {
+      "time": 207.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 208.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.5,
+      "predicted_halted": 0.74
+    },
+    {
+      "time": 208.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 208.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.5,
+      "predicted_halted": 0.89
+    },
+    {
+      "time": 208.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 209.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 4.0,
+      "predicted_halted": 0.04
+    },
+    {
+      "time": 209.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 209.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 2,
+      "waiting_time": 4.5,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 209.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 210.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 1.0,
+      "predicted_halted": 0.01
+    },
+    {
+      "time": 210.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 210.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 0.03
+    },
+    {
+      "time": 210.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 211.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.02
+    },
+    {
+      "time": 211.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 211.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.01
+    },
+    {
+      "time": 211.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 212.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.01
+    },
+    {
+      "time": 212.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 212.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.01
+    },
+    {
+      "time": 212.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 213.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 213.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 213.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.1
+    },
+    {
+      "time": 213.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 214.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 214.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 214.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 214.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.48
+    },
+    {
+      "time": 215.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 215.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.99
+    },
+    {
+      "time": 215.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 215.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 216.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 216.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 1.0,
+      "predicted_halted": 2.0
+    },
+    {
+      "time": 216.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 216.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 1.96
+    },
+    {
+      "time": 217.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 217.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 217.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 217.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 1.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 218.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 218.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 2,
+      "waiting_time": 1.5,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 218.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 218.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 2,
+      "waiting_time": 1.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 219.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 219.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 219.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 219.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 1.5,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 220.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 220.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.5,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 220.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 220.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 221.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 221.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.0,
+      "predicted_halted": 0.98
+    },
+    {
+      "time": 221.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 221.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.5,
+      "predicted_halted": 0.9
+    },
+    {
+      "time": 222.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 222.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.5,
+      "predicted_halted": 1.03
+    },
+    {
+      "time": 222.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 222.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.0,
+      "predicted_halted": 0.42
+    },
+    {
+      "time": 223.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 223.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 4.0,
+      "predicted_halted": 0.12
+    },
+    {
+      "time": 223.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 223.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.5,
+      "predicted_halted": 0.07
+    },
+    {
+      "time": 224.0,
+      "edge": "E1",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 224.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.06
+    },
+    {
+      "time": 224.0,
+      "edge": "E3",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 224.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 1.0,
+      "predicted_halted": 0.02
+    },
+    {
+      "time": 225.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 225.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 225.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 225.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 226.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 226.0,
+      "edge": "E2",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.01
+    },
+    {
+      "time": 226.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 226.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.01
+    },
+    {
+      "time": 227.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 227.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 227.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 227.0,
+      "edge": "E4",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 228.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.01
+    },
+    {
+      "time": 228.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 228.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.99
+    },
+    {
+      "time": 228.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 229.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 1.0,
+      "predicted_halted": 1.03
+    },
+    {
+      "time": 229.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 229.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.99
+    },
+    {
+      "time": 229.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 230.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 2.0
+    },
+    {
+      "time": 230.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 230.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 1.96
+    },
+    {
+      "time": 230.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 231.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 3.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 231.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 231.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 1.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 231.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 232.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 2,
+      "waiting_time": 2.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 232.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 232.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 2,
+      "waiting_time": 1.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 232.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 233.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.5,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 233.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 233.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 1.5,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 233.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 234.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 234.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 234.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 1.0
+    },
+    {
+      "time": 234.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 235.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.5,
+      "predicted_halted": 0.98
+    },
+    {
+      "time": 235.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 235.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 2.5,
+      "predicted_halted": 1.43
+    },
+    {
+      "time": 235.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 236.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 4.0,
+      "predicted_halted": 0.48
+    },
+    {
+      "time": 236.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 236.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 3.0,
+      "predicted_halted": 0.55
+    },
+    {
+      "time": 236.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 237.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 1,
+      "waiting_time": 4.5,
+      "predicted_halted": 0.04
+    },
+    {
+      "time": 237.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 237.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 2,
+      "waiting_time": 4.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 237.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 238.0,
+      "edge": "E1",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.07
+    },
+    {
+      "time": 238.0,
+      "edge": "E2",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 238.0,
+      "edge": "E3",
+      "vehicle_count": 1,
+      "halted": 1,
+      "waiting_time": 2.0,
+      "predicted_halted": 0.03
+    },
+    {
+      "time": 238.0,
+      "edge": "E4",
+      "vehicle_count": 0,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 239.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 239.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 239.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.01
+    },
+    {
+      "time": 239.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 240.0,
+      "edge": "E1",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.15
+    },
+    {
+      "time": 240.0,
+      "edge": "E2",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    },
+    {
+      "time": 240.0,
+      "edge": "E3",
+      "vehicle_count": 2,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.15
+    },
+    {
+      "time": 240.0,
+      "edge": "E4",
+      "vehicle_count": 1,
+      "halted": 0,
+      "waiting_time": 0.0,
+      "predicted_halted": 0.0
+    }
+  ],
+  "generated_at": "01:15:22"
+}
